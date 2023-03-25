@@ -32,7 +32,7 @@ function createTimeInEvent(record, dateTime) {
 
 // createTimeOutEvent
 
-function createTimeOutEvent(record, dateTime) {
+// function createTimeOutEvent(record, dateTime) {
     const dateTimeArray = dateTime.split(" ");
     record.timeOutEvents.push({
         type: "TimeOut",
